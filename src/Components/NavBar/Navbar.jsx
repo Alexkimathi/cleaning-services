@@ -12,17 +12,18 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   return (
     <>
-     <nav className="navbar">
+    <nav className="navbar">
         <div className="nav-container">
         <a href="/">
           <img src={image} alt="food-1" className="header__logo" />
         </a>
-    
+        {/* <div className="navbar"> */}
         <ul className={click ? "nav-menu active" : "nav-menu"}>
-        <li className="nav-item">
+          <li className="nav-item">
             <NavLink
               to={"/"}
               exact="true"
+              // activeClassName="active"
               className="nav-links"
               onClick={handleClick}
             >
@@ -31,33 +32,46 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <NavLink
-              to={"/home"}
+              to={"/teamlist"}
               exact="true"
+              // activeClassName="active"
               className="nav-links"
               onClick={handleClick}
             >
-              About Us
-            </NavLink>
-          </li>
-   
-          <li className="nav-item">
-            <NavLink
-              to={"/home"}
-              exact="true"
-              className="nav-links"
-              onClick={handleClick}
-            >
-              Services
+              About-us
             </NavLink>
           </li>
           <li className="nav-item">
             <NavLink
-              to={"/home"}
+              to={"/courselist"}
               exact="true"
+              // activeClassName="active"
+              className="nav-links"
+              onClick={handleClick}
+            >
+              Courses
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink
+              to={"/contacts"}
+              exact="true"
+              // activeClassName="active"
               className="nav-links"
               onClick={handleClick}
             >
               Contacts
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink
+              to={"/downloads"}
+              exact="true"
+              // activeClassName="active"
+              className="nav-links"
+              onClick={handleClick}
+            >
+              Downloads
             </NavLink>
           </li>
         </ul>
@@ -67,7 +81,6 @@ function Navbar() {
           </div>
           </div>
       </nav>
-     
     </>
   );
 }

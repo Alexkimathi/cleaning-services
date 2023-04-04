@@ -6,7 +6,7 @@
 .navbar {
   position: relative;
   z-index: 1000;
-  background-color: #0b1231;
+  background-color: #1f5156;
   height: 4rem;
   display: flex;
   align-items: center;
@@ -81,7 +81,6 @@
   background: #ffdd40;
 }
 
-
 @media screen and (max-width: 600px) {
   .header__logo {
     margin-left: 3rem;
@@ -91,7 +90,7 @@
   }
 
   .nav-menu {
-    display:none;
+    display: flex;
     flex-direction: column;
     width: 40%;
     border-top: 1pxsolid #fff;
@@ -130,6 +129,3 @@
     color: white;
   }
 }
-
-
-
