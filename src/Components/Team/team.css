@@ -57,6 +57,7 @@
 /*media query phones */
 @media screen and (max-width: 600px) {
   .card-contents {
+   
     display:block;
     width: 100%;
     box-shadow: 0 .1rem 1rem 0 rgba(0, 0, 0, 0.2);
@@ -85,9 +86,21 @@
     margin-top: 2rem;
   }
   .try{
-    margin:0;
+  
+    margin: 0;
+    padding: 0;
+    
    
   }
+
+  .card-contents img{
+    width: 70vw;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 1rem;
+
+}
 
 
 }
