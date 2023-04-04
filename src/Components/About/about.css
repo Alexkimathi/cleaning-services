@@ -106,11 +106,10 @@
 
 
 .card-1 {
-  display:flex;
-  padding: .1rem;
+  display:block;
   margin: 2rem;
   width: 40vw;
-  bottom: 15rem;
+  bottom: 17rem;
   left: 15rem;
   position: relative;
   background-color: rgb(32, 32, 235)
