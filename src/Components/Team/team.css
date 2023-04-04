@@ -1,5 +1,5 @@
 .card-contents {
-    box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 .1rem 1rem 0 rgba(0, 0, 0, 0.2);
     margin:1rem;
     text-align: center;
     display:inline-block;
