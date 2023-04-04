@@ -1,0 +1,52 @@
+.card-contents {
+    box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.2);
+    margin:1rem;
+    text-align: center;
+    display:inline-block;
+    width: 23%;
+    border-radius: 2rem;
+   
+  }
+
+  .card-contents img{
+    width: 80%;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 2rem;
+
+}
+
+.card-contents h2{
+   font-size: 1.5rem;
+
+}
+.card-contents h1{
+  font-size: 2rem;
+}
+.Card-list p{
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 500;
+
+}
+
+
+
+
+/*media query phones */
+@media screen and (max-width: 600px) {
+  .card-contents {
+    display:inline-flex;
+    width: auto;   
+  }
+
+
+}
+
+
+
+/*media query tablet */
+@media screen and (max-width: 1024px) {
+
+}
