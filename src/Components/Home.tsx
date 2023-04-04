@@ -3,6 +3,7 @@ import Header from './header/Header';
 import Navbar from './NavBar/Navbar';
 import About from './About/About';
 import TeamList from './Team/TeamList';
+import Footer from './footer/Footer';
 
 
 
@@ -16,6 +17,8 @@ function Home() {
 
     <TeamList />
     
+
+    <Footer />
 
    
     

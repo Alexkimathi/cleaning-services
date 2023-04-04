@@ -5,7 +5,7 @@ import Team from "./Team";
 import "./team.css";
 
 import "./team.css";
-import { Swiper, SwiperSlide } from "swiper/react";
+
 
 function TeamList() {
   return (

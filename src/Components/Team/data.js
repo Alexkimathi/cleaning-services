@@ -4,7 +4,7 @@ import person from '../../img/clean.jpg'
 import person2 from '../../img/clean.jpg'
 import person3 from '../../img/clean.jpg'
 import person4 from '../../img/clean.jpg'
-import person5 from '../../img/clean.jpg'
+
 
 
 

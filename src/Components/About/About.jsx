@@ -28,7 +28,7 @@ function About() {
 
       <div className="about-details">
         <h4>About annonymous Cleanning</h4>
-        <h1>You can depend on us to get a good services</h1>
+        <h1>You can depend on us to get good services</h1>
 
         <h5>We are annonymous cleanning service provider</h5>
 
