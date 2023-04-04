@@ -87,7 +87,8 @@
   @media screen and (max-width: 600px) {
     .about{
       display: block;
-      margin-top: 70rem;
+      margin-top: 63rem;
+      width: 80%;
      
   }
 
@@ -98,7 +99,7 @@
 
 .about-image > img{
   border-radius: 1rem;
-  width: 70%;
+  width: 100%;
  
 
 
@@ -110,8 +111,8 @@
   padding: .1rem;
   margin: 2rem;
   width: 40vw;
-  bottom: 15rem;
-  left: 15rem;
+  bottom: 20rem;
+  left: 18rem;
   position: relative;
   background-color: rgb(32, 32, 235)
 }
@@ -129,8 +130,8 @@
  }
 
  .about-details{
-  margin-left: 2rem;
-  width: 90%;
+  margin: 2rem;
+  width: 100%;
 }
 
 .about-details p{
@@ -143,7 +144,8 @@
   font-size: 1.8rem;
 }
 .about-details h1{
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  color: blue;
   font-weight: bold;
 }
 .about-details h5{
