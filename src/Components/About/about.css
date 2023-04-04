@@ -109,8 +109,8 @@
   display:flex;
   padding: .1rem;
   margin: 2rem;
-  width: 50vw;
-  bottom: 18rem;
+  width: 40vw;
+  bottom: 15rem;
   left: 15rem;
   position: relative;
   background-color: rgb(32, 32, 235)
@@ -124,7 +124,7 @@
 }
 
 .container-1 h2 {
-  font-size: 1.5rem;
+  font-size: 1rem;
    
  }
 
