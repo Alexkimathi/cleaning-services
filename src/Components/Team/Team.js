@@ -6,7 +6,7 @@ function Team(props) {
     <div className="card-contents">
       <div key={props.id} className="cardsss">
         <img src={props.image} alt="hello" />
-        <h1>{props.name}</h1>
+        <h3>{props.name}</h3>
         <h2>{props.title}</h2>
       </div>
     </div>

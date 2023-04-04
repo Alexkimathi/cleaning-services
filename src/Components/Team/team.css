@@ -3,14 +3,14 @@
     margin:1rem;
     text-align: center;
     display:inline-block;
-    width: 23%;
+    width: 20vw;
     border-radius: 2rem;
    
   }
 
   .card-contents img{
-    width: 80%;
-    height: 40vh;
+    width: 10vw;
+    height: 20vh;
     object-fit: cover;
     border-radius: 50%;
     margin: 2rem;
@@ -18,17 +18,37 @@
 }
 
 .card-contents h2{
-   font-size: 1.5rem;
+   font-size: 1.8rem;
 
 }
-.card-contents h1{
-  font-size: 2rem;
+.card-contents h3{
+  font-size: 2.5rem;
+  
 }
 .Card-list p{
   font-size: 1.8rem;
   text-align: center;
   font-weight: 500;
+ 
+  
 
+}
+.Card-list h1{
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bold;
+ 
+  
+
+}
+.Card-list{
+  margin-top: 15rem;
+
+  text-align: center;
+}
+.try{
+  margin-left: 10rem;
+  padding: 2rem;
 }
 
 
@@ -37,8 +57,36 @@
 /*media query phones */
 @media screen and (max-width: 600px) {
   .card-contents {
-    display:inline-flex;
-    width: auto;   
+    display:block;
+    width: 100%;
+    box-shadow: 0 .1rem 1rem 0 rgba(0, 0, 0, 0.2);
+     
+  }
+ 
+  .Card-list{
+    width: 100%;
+   
+   
+  }
+
+  .Card-list p{
+    font-size: 1.8rem;
+    margin: 2rem;
+   
+   
+   
+    
+  
+  }
+  .Card-list h1{
+    font-size: 2rem;
+  }
+  .Card-list{
+    margin-top: 2rem;
+  }
+  .try{
+    margin:0;
+   
   }
 
 
