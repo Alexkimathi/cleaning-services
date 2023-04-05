@@ -3,6 +3,7 @@
   background-color: #15319f;
   color: white;
   display: flex;
+  justify-content: space-around;
 }
 .logos {
   display: flex;
